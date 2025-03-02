@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    background-color: #040714!important;
+    color: #fff;
+
+}
+nav{
+    background-color: #040714!important;
+     height: 80px;
+ 
+
+}
+nav a{
+    color: #fff!important;
+    margin-right: 15px;
+    font-weight: bolder;
+}
+.dropdown-menu{
+    background-color: #040714!important;
+    color: #fff!important;
+}
+.dropdown-menu a:hover{
+
+    color: #040714!important;
+}
+
+.bg-primary{
+    background-color: #040714!important;
+    color: #fff;
+}
+
+ .btn-primary{
+    background-color: #0B5362!important;
+ }
+ .bg-secondary{
+     background-color: #0B5362!important;
+     color: #fff;
+     padding: 10px;
+ }
+ .container-fluid{
+    margin:0;
+    padding:0;
+ }
+.consultation{
+    height: 70px;
+}
+
+.btn-white{
+    color: #0B5362!important;
+    background-color: #fff!important;
+}
