@@ -1,0 +1,96 @@
+// style.scss
+@import 'variable';
+
+/* Branding color */
+/* #dd0f74 */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    
+
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    background-color: $background-color;
+    color: #fff;
+
+}
+nav{
+    background-color: #040714!important;
+     height: 80px auto;
+ 
+
+}
+nav a{
+    color: #fff!important;
+    margin-right: 15px;
+    font-weight: bolder;
+}
+.dropdown-menu{
+    background-color: #040714!important;
+    color: #fff!important;
+}
+.dropdown-menu a:hover{
+
+    color: #040714!important;
+}
+
+.bg-primary{
+    background-color: $background-color;
+    color: #fff;
+}
+
+ .btn-primary{
+    background-color: $primary-color;
+    border: none;
+ }
+ .bg-secondary{
+     background-color: $primary-color;
+     color: #fff;
+     padding: 10px;
+ }
+ .container-fluid{
+    margin:0;
+    padding:0;
+ }
+.consultation{
+    height: 70px;
+}
+
+.btn-white{
+    color: #0B5362!important;
+    background-color: #fff!important;
+}
+
+.box{
+    background-color: $boxservices;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.box2{
+    background-color: $primary-color;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.icon{
+    color: $rose;
+}
+.contact{
+    background-color: $boxservices;
+    height: 350px auto;
+    padding: 100px;
+}
+.footer{
+    background-color: $footer;
+    height: 200px;
+}
