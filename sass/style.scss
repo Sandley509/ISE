@@ -19,6 +19,7 @@ body{
 
 }
 nav{
+    padding: 10px;
     background-color: #040714!important;
      height: 80px auto;
  
@@ -77,8 +78,8 @@ nav a{
 .box2{
     background-color: $primary-color;
     color: #fff;
-    padding: 10px;
-    margin: 10px;
+    padding: 20px;
+    
     border-radius: 10px;
     cursor: pointer;
 }
@@ -92,5 +93,18 @@ nav a{
 }
 .footer{
     background-color: $footer;
-    height: 200px;
+    height: 500px;
+}
+
+  
+  .hidden {
+    display: none;
+  }
+
+
+  .footertext{
+    cursor: pointer;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
 }
