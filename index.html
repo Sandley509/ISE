@@ -14,6 +14,15 @@
     <script src="https://kit.fontawesome.com/c89ceef031.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-S07GQTHHXL"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-S07GQTHHXL');
+</script>
 <body>
   <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
     <div class="container-fluid">
@@ -41,11 +50,11 @@
           </ul>
           </li>
           <li class="nav-item"><a class="nav-link" href="#portfolio">PORTFOLIO</a></li>
-          <li class="nav-item"><a class="nav-link" href="#portfolio">PRICING</a></li>
+          <li class="nav-item"><a class="nav-link" href="pricing.html">PRICING</a></li>
           <li class="nav-item"><a class="nav-link" href="#portfolio">ABOUTUS</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">CONTACT US</a></li>
         </ul>
-        <div class="d-flex" role="search"><button class="btn btn-light" type="submit">GET A QUOTE</button></div>
+        <!-- <div class="d-flex" role="search"><button class="btn btn-light" type="submit">GET A QUOTE</button></div> -->
       </div>
     </div>
   </nav>
@@ -64,10 +73,24 @@
             </button>
         </div>
     </div>
+<!-- Calendly link widget begin -->
+<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+
+<!-- Calendly link widget end -->
+
+
+
     <section>
         <div class="container-fluid consultation bg-secondary d-flex justify-content-center align-items-center">
-            <div class="text-center fw-bolder fs-4 text-uppercase">Book a Free Consultation</div>
-            <div class="btn btn-light m-4">Book Now</div>
+            <div class="text-center fw-bolder fs-4 text-uppercase"> Book a Free Consultation</div>
+            <div class="btn btn-light m-4">
+              <a href="" 
+              class="nav-link"
+              onclick="Calendly.initPopupWidget({url: 'https://calendly.com/estaliensandley14/30min'});return false;">
+              Book now</a>
+
+            </div>
         </div>
     </section>
     <br><br>
@@ -135,7 +158,7 @@
             <div class="row">
 
 
-              <div class="col-lg-3  text-center" >
+              <div class="col-lg-3  col-12 mt-2 text-center" >
                 <div class="box2">
                     <button class="btn text-white" data-filter="all">
                       ALL
@@ -143,7 +166,7 @@
                 </div>
              </div>
 
-              <div class="col-lg-3  text-center" >
+              <div class="col-lg-3  col-12 mt-2  text-center" >
                 <div class="box2">
                     <button class="btn text-white" data-filter="website">
                       Website
@@ -154,7 +177,7 @@
 
 
 
-             <div class="col-lg-3  text-center" >
+             <div class="col-lg-3  col-12 mt-2 text-center" >
                 <div class="box2">
                         <button class="btn text-white" data-filter="graphic">
                           Graphic Design
@@ -163,7 +186,7 @@
              </div>
 
 
-             <div class="col-lg-3  text-center" >
+             <div class="col-lg-3  col-12 mt-2 text-center" >
                 <div class="box2">
                         <button class="btn text-white" data-filter="ads">
                           Videos Ads
@@ -185,45 +208,50 @@
                     </div>
                   </div>
 
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
                       <img src="./assets/img/portfolio/jr23.jpg" alt="" class="img-fluid" />
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
                       <img src="./assets/img/portfolio/kadom.jpeg" alt="" class="img-fluid" />
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
                       <img src="./assets/img/portfolio/Oulalstore.jpeg" alt="" class="img-fluid" />
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
                       <img src="./assets/img/portfolio/travel.jpeg" alt="" class="img-fluid" />
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
                       <img src="./assets/img/portfolio/Rdglobal.jpeg" alt="" class="img-fluid" />
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
-                      <img src="./assets/img/portfolio/travel.jpeg" alt="" class="img-fluid" />
+                      <img src="./assets/img/portfolio/popouriapparel.png" alt="" class="img-fluid" />
                     </div>
                   </div>
-                  <div class="col-lg-3">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="website">
-                      <img src="./assets/img/portfolio/travel.jpeg" alt="" class="img-fluid" />
+                      <img src="./assets/img/portfolio/phonivision.png" alt="" class="img-fluid" />
                     </div>
                   </div>
                   <!-- End of website  -->
                    <!-- start of graphic  -->
 
-                  <div class="col-lg-3 mt-2">
+                  <div class="col-lg-3 col-12 mt-2">
+                    <div class="item" data-category="graphic">
+                      <img src="./assets/img/portfolio/graphic.JPG" alt="" class="img-fluid" />
+                    </div>
+                  </div>
+                  <!-- <div class="col-lg-3 mt-2">
                     <div class="item" data-category="graphic">
                       <img src="./assets/img/portfolio/graphic.JPG" alt="" class="img-fluid" />
                     </div>
@@ -237,18 +265,13 @@
                     <div class="item" data-category="graphic">
                       <img src="./assets/img/portfolio/graphic.JPG" alt="" class="img-fluid" />
                     </div>
-                  </div>
-                  <div class="col-lg-3 mt-2">
-                    <div class="item" data-category="graphic">
-                      <img src="./assets/img/portfolio/graphic.JPG" alt="" class="img-fluid" />
-                    </div>
-                  </div>
+                  </div> -->
                   <!-- End of graphic -->
                   <!-- start of ads  -->
                   
-                  <div class="col-lg-3 mt-2">
+                  <div class="col-lg-3 col-12 mt-2">
                     <div class="item" data-category="ads">
-                      <video src="./assets/img/portfolio/ads2.mp4" class="img-fluid rounded" controls autoplay></video>
+                      <video src="./assets/img/portfolio/ads2.mp4" class="img-fluid rounded" controls autoplay muted></video>
                     </div>
                   </div>
                   <!-- <div class="col-lg-3 mt-2">
@@ -300,15 +323,14 @@
 </body>
    <!-- lets import our main javascript file -->
    <script src="js/main.js"></script>
-   </html>
-  <footer class="footer text-white">
+   <footer class="footer text-white">
 
     <div class="container p-4">
     <hr>
         <div class="row">
             <div class="col-lg-4">
             <p class="fw-bolder fs-2 icon"> Most Popular</p>
-                <p><a href="login.php" class="footertext">Contact us</a></p>
+                <p><a href="" class="footertext">Pricing</a></p>
                 <p><a href="login.php" class="footertext">Our Plans</a></p>
                 <p><a href="login.php" class="footertext">SEO</a></p>
                 <p><a href="login.php" class="footertext">Digital Marketing</a></p>
@@ -358,15 +380,17 @@
                 <div class="col-md-6">
                     <p>&copy; 2025 isedigitalsolutions LLC . All rights reserved.</p>
                 </div>
-                <div class="col-md-6 text-md-end">
+                <!-- <div class="col-md-6 text-md-end">
                     <p>Designed by <a href="https://estaliensandley.space">ISE</a></p>
-                </div>
+                </div> -->
             </div>
         </div>
     
-    
+        <script type="text/javascript" src="https://cdn.ywxi.net/js/1.js" async></script>
     </footer>
 
+   </html>
+ 
 
 
  
