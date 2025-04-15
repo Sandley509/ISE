@@ -1,2 +1,71 @@
-https://billing.stripe.com/p/login/00geXn4JL7DN1a03cc
-customer portal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ISE DIGITAL SOLUTIONS | SOFTWARE DEVELOPPEMENT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="image/x-icon" />
+    <script src="https://kit.fontawesome.com/c89ceef031.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js" async></script>
+</head>
+
+<!-- https://billing.stripe.com/p/login/00geXn4JL7DN1a03cc
+customer portal -->
+
+<style>
+    .item {
+  position: relative;
+  overflow: hidden; /* Prevent overlay from showing outside the item */
+}
+
+.portfolio-image {
+  transition: transform 0.3s ease; /* Smooth zoom transition */
+}
+
+.item:hover .portfolio-image {
+  transform: scale(1.1); /* Zoom on hover */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.3s ease; /* Smooth fade-in */
+}
+
+.item:hover .overlay {
+  opacity: 1; /* Show overlay on hover */
+}
+
+.website-link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+</style>
+
+
+<div class="col-lg-3 col-12 mt-2">
+    <div class="item" data-category="website">
+      <img src="./assets/img/portfolio/jr23.jpg" alt="" class="img-fluid portfolio-image" />
+      <div class="overlay">
+        <a href="https://jr23store.com/" target="_blank" class="website-link">jr3</a>
+      </div>
+    </div>
+  </div>
